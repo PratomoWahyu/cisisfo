@@ -44,6 +44,10 @@ class Modkategori extends CI_Model {
 		$this->db->where('idKategori',$id);
 		$this->db->update('kategori',$data);
 	}
+	public function test()
+	{
+		# code...
+	}
 }
 
 /* End of file modkategori.php */
