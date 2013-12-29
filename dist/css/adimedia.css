@@ -1,0 +1,142 @@
+body {
+	padding-top: 120px;
+}
+
+.belakang {
+	background-image: url('dist/img/latar.jpg');
+}
+
+.atas {
+	background-color: #48342E;
+/*background: rgb(38,22,22); /* Old browsers */*/
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+/*background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzI2MTYxNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0OTJjMmIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);*/
+/*background: -moz-linear-gradient(top,  rgba(38,22,22,1) 0%, rgba(73,44,43,1) 100%); /* FF3.6+ */*/
+/*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(38,22,22,1)), color-stop(100%,rgba(73,44,43,1))); /* Chrome,Safari4+ */*/
+/*background: -webkit-linear-gradient(top,  rgba(38,22,22,1) 0%,rgba(73,44,43,1) 100%); /* Chrome10+,Safari5.1+ */*/
+/*background: -o-linear-gradient(top,  rgba(38,22,22,1) 0%,rgba(73,44,43,1) 100%); /* Opera 11.10+ */*/
+/*background: -ms-linear-gradient(top,  rgba(38,22,22,1) 0%,rgba(73,44,43,1) 100%); /* IE10+ */*/
+/*background: linear-gradient(to bottom,  rgba(38,22,22,1) 0%,rgba(73,44,43,1) 100%); /* W3C */*/
+/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#261616', endColorstr='#492c2b',GradientType=0 ); /* IE6-8 */*/
+
+}
+
+.outdoor {
+	background-color: #1d4460;
+}
+.indoor {
+	background-color: #3e1e18;
+}
+.offset {
+	background-color: #1f564a;
+}
+
+.logo {
+	position: fixed;
+	top: 0px;
+	z-index: 100;
+	left: 43%;
+}
+
+.logo2 {
+	position: fixed;
+	top: 5px;
+	z-index: 100;
+	left: 45%;
+}
+
+.logo-sisfo {
+	position: fixed;
+	top: 5px;
+	z-index: 10;
+	left: 5%;
+}
+
+.bar-sisfo {
+	background-color: #031835;
+	border-bottom: 1px solid #020c26;
+	border-radius: 0px
+}
+
+.kaki {
+   border-top: 2px solid #171717;
+   text-align: center;
+   height: auto;
+   background-color: #000000;
+   color: #ffffff;
+   margin-top: 131px;
+
+}
+
+.navbar-fixed-top2 {
+	position: fixed;
+	margin-top: 10px;
+
+}
+
+.row-s {
+	
+	padding-left: 470px;
+}
+
+.cari {
+	background-color: transparent;
+	border-color: #182b5b;
+	color: #accfff;
+}
+
+.kotak {
+	background-color: #000000;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.box {
+	margin-top: 70px;
+	padding-top: 0px;
+}
+
+.jumbotrom {
+	border-radius: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-top: 1px solid #186c98;
+	box-shadow: 2px 1px 5px #186c98;
+    padding-top: 15px;
+  	padding-bottom: 15px;
+  	background-color: #c4dfe6;
+}
+
+.jumbotrom2 {
+	/*border-radius: 10px;*/
+	padding-left: 20px;
+	padding-right: 20px;
+	/*border-top: 1px solid #186c98;*/
+	/*box-shadow: 2px 1px 5px #186c98;*/
+    padding-top: 45px;
+  	padding-bottom: 45px;
+  	background-color: #dbbfad;
+}
+
+/*untuk tabel*/
+
+.tabel th {
+	background-color: #D3b4A4;
+	color: #f5f5f5;
+}
+
+.tabel td {
+	background-color: #E7E8EB;
+}
+
+.tabel2 td {
+	background-color: #e6c4af;
+}
+
+.table-hover > tbody > tr:hover > td,
+.table-hover > tbody > tr:hover > th {
+  background-color: #63B196;
+  color: #00224c;
+}
